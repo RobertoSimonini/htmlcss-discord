@@ -188,6 +188,12 @@ section > .container {
   background-size: contain;
 }
 
+.flex > .fandom {
+  background-image: url(../img/item3.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .title-groups {
   color: #23272a;
   margin-bottom: 25px;
