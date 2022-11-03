@@ -39,8 +39,9 @@ body {
 }
 
 header {
-  background-color: #3161e0;
+  background-color: #255ee9;
   font-weight: bold;
+  color: #ffffff;
 }
 .f-bold {
   font-weight: bold;
@@ -50,6 +51,11 @@ button {
   cursor: pointer;
 }
 
+p {
+  font-size: 24px;
+  font-weight: normal;
+}
+
 /* # Navbar */
 
 .navbar {
@@ -57,7 +63,6 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #ffffff;
   font-size: 15px;
 }
 
@@ -70,7 +75,6 @@ button {
 .navbar > * {
   padding: 10px;
   flex-basis: 20%;
-  background-color: #3161e0;
 }
 
 .navbar-menu {
@@ -89,7 +93,7 @@ button {
 }
 
 .sign-in {
-  background-color: #fff;
+  background-color: #ffff;
 }
 
 /* # Jumbotron */
@@ -99,7 +103,6 @@ button {
   height: 600px;
   background-image: url(../img/jumbo.png);
   background-size: cover;
-
   display: flex;
   justify-content: center;
 }
@@ -110,6 +113,18 @@ button {
   /* margin: 0 auto; */
   background-color: transparent;
 }
+
+.main-title {
+  font-size: 55px;
+  text-align: center;
+  padding: 50px;
+}
+.p-header {
+  text-align: center;
+  line-height: 35px;
+  margin-bottom: 10px;
+}
+
 
 /* # Main & sections */
 section {
