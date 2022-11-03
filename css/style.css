@@ -45,16 +45,19 @@ header {
 
 .navbar {
   height: 80px;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+#main-logo {
+  height: 55px;
+}
+
 .navbar > * {
   padding: 10px;
   flex-basis: 20%;
-  background-color: goldenrod;
+  background-color: #3161e0;
 }
 
 .navbar-menu {
