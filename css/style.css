@@ -61,7 +61,6 @@ button {
 }
 
 
-
 .navbar a {
   text-decoration: none;
   color: #ffffff;
@@ -88,6 +87,9 @@ button {
   border-radius: 20px;
 }
 
+.sign-in {
+  background-color: #fff;
+}
 
 /* # Jumbotron */
 
