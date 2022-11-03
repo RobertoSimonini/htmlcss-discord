@@ -35,7 +35,7 @@ body {
 }
 
 .bg-gray {
-  background-color: lightgray;
+  background-color: #f6f6f6;-+
 }
 
 header {
@@ -163,6 +163,50 @@ h2 {
 section {
   padding: 50px;
   height: 600px;
+  position: relative;
+}
+
+.grey-wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.grey-wave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 50px;
+}
+
+.grey-wave .shape-fill {
+  fill: #F6F6F6;
+}
+
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 69px;
+}
+
+.wave .shape-fill {
+  fill: #FFFFFF;
 }
 
 section > .container {
