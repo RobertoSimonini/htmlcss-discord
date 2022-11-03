@@ -40,6 +40,14 @@ body {
 
 header {
   background-color: #3161e0;
+  font-weight: bold;
+}
+.f-bold {
+  font-weight: bold;
+}
+
+button {
+  cursor: pointer;
 }
 
 /* # Navbar */
@@ -74,9 +82,14 @@ header {
   justify-content: space-evenly;
 }
 
-.navbar-actions {
+.navbar-actions, button {
   text-align: right;
+  text-decoration: none;
+  border: none;
+  padding: 12px;
+  border-radius: 20px;
 }
+
 
 /* # Jumbotron */
 
