@@ -168,7 +168,9 @@ section > .container {
 
 .flex > .large-col {
   flex-basis: 60%;
-  background-color: dodgerblue;
+  background-image: url(../img/item1.svg);
+  background-size: contain;
+ 
 }
 
 .flex > .full-col {
