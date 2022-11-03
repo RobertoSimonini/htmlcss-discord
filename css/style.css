@@ -157,7 +157,6 @@ h1 {
 /* # Main & sections */
 section {
   padding: 50px;
-  margin: 100px 0;
   height: 600px;
 }
 
@@ -184,12 +183,17 @@ section > .container {
   background-size: contain;
 }
 
+.flex > .calls {
+  background-image: url(../img/item2.svg);
+  background-size: contain;
+}
+
 .title-groups {
   color: #23272a;
   margin-bottom: 25px;
 }
 
-.p-groups {
+.main-paragraphs {
   color: #23272a;
   line-height: 30px;
 }
