@@ -253,6 +253,7 @@ footer {
 
 .footer-top .footer-left {
   flex-basis: 30%;
+  color: white;
 }
 
 .footer-top .footer-right {
@@ -281,6 +282,18 @@ footer {
 
 .footer-bottom > * {
   padding: 5px 10px;
+}
+
+#italian-flag {
+  height: 20px;
+}
+
+.s-networks {
+  padding: 25px 0;
+}
+
+.fa-brands {
+  padding-right: 20px;
 }
 
 ul {
