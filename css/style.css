@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 /* Generics */
@@ -48,10 +49,16 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: #ffffff;
 }
 
 #main-logo {
   height: 55px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .navbar > * {
@@ -63,6 +70,8 @@ header {
 .navbar-menu {
   flex-grow: 1;
   text-align: center;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .navbar-actions {
