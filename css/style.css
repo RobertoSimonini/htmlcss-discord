@@ -60,6 +60,10 @@ p {
   font-weight: normal;
 }
 
+h1 {
+  font-size: 50px;
+}
+
 /* # Navbar */
 
 .navbar {
@@ -116,7 +120,6 @@ p {
 }
 
 .main-title {
-  font-size: 55px;
   text-align: center;
   padding: 50px;
 }
@@ -154,6 +157,7 @@ p {
 /* # Main & sections */
 section {
   padding: 50px;
+  margin: 100px 0;
   height: 600px;
 }
 
@@ -163,19 +167,31 @@ section > .container {
 
 .flex > .small-col {
   flex-basis: 40%;
-  background-color: pink;
+  padding: 35px;
 }
 
 .flex > .large-col {
   flex-basis: 60%;
-  background-image: url(../img/item1.svg);
-  background-size: contain;
- 
 }
 
 .flex > .full-col {
   flex-basis: 100%;
   background-color: darkgreen;
+}
+
+.flex > .groups {
+  background-image: url(../img/item1.svg);
+  background-size: contain;
+}
+
+.title-groups {
+  color: #23272a;
+  margin-bottom: 25px;
+}
+
+.p-groups {
+  color: #23272a;
+  line-height: 30px;
 }
 
 /* # Footer */
