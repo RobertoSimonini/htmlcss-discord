@@ -58,6 +58,7 @@ button {
   align-items: center;
   justify-content: space-between;
   color: #ffffff;
+  font-size: 15px;
 }
 
 
@@ -95,8 +96,9 @@ button {
 
 .jumbotron {
   padding: 50px;
-  height: 500px;
-  background-color: darkblue;
+  height: 600px;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
 
   display: flex;
   justify-content: center;
@@ -106,7 +108,7 @@ button {
   width: 50%;
   /* height: 100%; */
   /* margin: 0 auto; */
-  background-color: violet;
+  background-color: transparent;
 }
 
 /* # Main & sections */
