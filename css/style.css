@@ -35,7 +35,7 @@ body {
 }
 
 .bg-gray {
-  background-color: #f6f6f6;-+
+  background-color: #f6f6f6;
 }
 
 header {
@@ -303,13 +303,11 @@ footer {
 .footer-top .footer-right {
   flex-basis: 70%;
   padding: 25px;
-  /* background-color: #20b2aa; */
 }
 
 .footer-nav {
   height: 100%;
   display: flex;
-  /* background-color: #fff; */
 }
 
 .footer-nav > div {
@@ -321,7 +319,6 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  /* background-color: aquamarine; */
 }
 
 .footer-bottom > * {
@@ -344,6 +341,7 @@ ul {
   list-style-type: none;
   color: white;
   line-height: 35px;
+  cursor: pointer;
 }
 
 .register {
